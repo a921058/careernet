@@ -1,0 +1,350 @@
+*{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    height: 82;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.logo{
+    margin-right: 110px;
+}
+.login{
+    display: flex;
+}
+
+.login li{
+    display: inline;
+    font-size: 13px;
+    margin-right: 8px;
+}
+.login li a{
+    color:#333;
+    font-weight: bold;
+}
+.inputbox input{
+    border-radius: 20px;
+    width: 160px;
+    height: 35px;
+    border: solid #999 1px;
+    padding: 10px;
+}
+.inputbox{
+    position: relative;
+    margin: auto 0;
+}
+.inputbox i{
+    position: absolute;
+    right:3px;
+    top:10px;
+    padding-right: 10px;
+    color:#666;
+}
+.menu{
+    width: 100%;
+    height: 52px;
+    background-color: #271db6;
+    color:#fff;
+    font-weight: bold;
+    font-size: 17px;
+    vertical-align: center;
+    padding:0px;
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.menu ul{
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+.visual{
+    width: 100%;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: url("./images/bg_main_visual.png") no-repeat center 84px #E9E6E0;
+    display: flex;
+    padding: 30px;
+}
+h2{
+    font-size: 42px;
+    font-weight: normal;
+}
+span{
+    color:rgb(90, 1, 255);
+}
+.ikonbox ul{
+    padding:0px;
+}
+.ikonbox a{
+    width: 110px;
+    height: 110px;
+    position:relative;
+    overflow:hidden;
+}
+
+.ikonbox a img{
+    position:absolute;
+    top:0;
+}
+.ikonbox li a:hover{
+    top: -110px;
+}
+.ikonbox li{
+    width: 110px;
+    height:110px;
+    background-color: #fff;
+    margin:4px;
+    border-radius: 70px;
+    display: inline-block;
+    overflow: hidden;
+}
+#container{
+    width: 920px;
+    height: 193px;
+    background-color:#fff;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 30px;
+}
+#container button{
+    cursor: pointer;
+}
+.searchbar{
+    width: 760px;
+    height: 50px;
+    border:solid  #271db6 2px;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+.searchbar select{
+    font-size: 17px;
+    font-weight: bold;
+    float: left;
+    padding: 8px;
+    border: 0px;
+    margin-top:8px;
+    margin-left: 8px;
+}
+.searchbar input{
+    width: 500px;
+    font-size: 17px;
+    font-weight: bold;
+    float: left;
+    padding: 8px;
+    border: 0px;
+    margin-top:8px;
+    margin-left: 8px;
+}
+.searchbar a{
+    background-color:  #271db6;
+    padding:8px 34px;
+    font-size: 20px;
+    height: 34px;
+    color:#fff;
+    border-radius: 0px;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+#container button{
+    background-color:#fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding:7px 12px;
+    margin-right: 8px;
+    border-radius: 30px;
+    border: solid 1px #E9E6E0;
+}
+.know1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    border: solid #E9E6E0 1px;
+}
+.know1 p{
+    display: inline-block;
+    font-weight: bold;
+}
+.know1 ul{
+    display: inline-block;
+}
+.know1 .key{
+    display: flex;
+}
+.know1 .key1, .key2, .key3{
+    border: 10px solid #f7590f;
+    background-color: #f7590f;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+}
+.container2{
+    width: 100%;
+    height: 340px;
+    background-color: #E9E6E0;;
+    padding:0px;
+}
+.container2 ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.container2 ul li{
+    width: 290px;
+    height: 250px;
+    background-color: #fff;
+    margin-right: 35px;
+    margin-top:45px;
+    border-radius: 10px;
+    transition:all 0.5s;
+}
+.container2 ul li:hover .title1{
+    left:40px;
+}
+.container2 ul li img{
+    transform:scale(1);
+    transition:all 0.5s;
+}
+.container2 ul li:hover img{
+    transform:scale(1.1);
+}
+.know2{
+    position: relative;
+    height: 100px;
+    border: solid #E9E6E0 1px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.know2 p{
+    display: inline-block;
+    margin-left: 322px;
+    padding:16px;
+    color:#555;
+    font-size: 13px;
+    font-weight: bold;
+}
+.know2 button{
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-weight: bold;
+    padding:6px 13px;
+    background-color: #fff;
+}
+.know2 #btn1{
+    color:#3367d6;
+    border: 1px solid #3367d6;
+}
+.know2 #btn2{
+    color: #fb2531;
+    border: 1px solid #fb2531;
+}
+.main-family{
+    width: 100%;
+    height: 100px;
+    border: solid #E9E6E0 1px;
+}
+.main-family ul{
+    display: flex;
+    justify-content: center;
+}
+.main-family ul li{
+    padding-right: 40px;
+}
+h4{
+    text-align: center; 
+    margin-right: 850px;
+    padding-top: 20px;
+}
+.container2 ul{
+    position: relative;
+}
+
+.container2 ul li{
+    padding:0px;
+    margin:20px;
+}
+.container2 a{
+    position: absolute;
+    padding:19px;
+}
+.container2 p{
+    position: absolute;
+    font-size: 13px;
+}
+.container2 .v1 p{
+    top: 240px;
+    left:310px;
+}
+.container2 .v2 p{
+    top: 240px;
+    left:640px;
+}
+.container2 .v3 p{
+    top: 240px;
+    left:970px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    border: solid #E9E6E0 1px;
+    padding-bottom: 6px;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li{
+    padding-right: 15px;
+    font-size: 13px;
+    padding-top: 6px;
+    font-weight: bold;
+    color:#555;
+}
+.footer ul li a{
+    border-right:1px solid #666;
+    margin-bottom: 50px;    
+}
+.footer select{
+    height: 35px;
+    width: 135px;
+}
+.ffooter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    align-items: center;
+    padding-top:25px;
+}
+.ffooter p{
+    font-size: 12px;
+    margin-right: 100px;
+    font-weight: bold;
+    color:#555;
+}
+.ffooter li{
+    display: inline-block;
+}
+.ffooter ul li a{
+    height: 100px;
+    width: 100px;
+}
